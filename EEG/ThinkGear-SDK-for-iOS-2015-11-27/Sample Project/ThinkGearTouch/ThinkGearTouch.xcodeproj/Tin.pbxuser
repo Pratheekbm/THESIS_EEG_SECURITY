@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* ThinkGearTouchAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {773, 522}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 455}";
+		};
+	};
+	1D3623250D0F684500981E51 /* ThinkGearTouchAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 637}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{35, 1344}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* ThinkGearTouch */ = {
+		activeExec = 0;
+		executables = (
+			266EF40D123A13C9006BD2AA /* ThinkGearTouch */,
+		);
+	};
+	2605FCE5123C8DAB0043963E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5874B6A410C876C200857C66 /* SynthesizeSingleton.h */;
+		name = "SynthesizeSingleton.h: 9";
+		rLen = 0;
+		rLoc = 239;
+		rType = 0;
+		vrLen = 1008;
+		vrLoc = 0;
+	};
+	2605FCE6123C8DAB0043963E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1444;
+		vrLoc = 2240;
+	};
+	2605FCE8123C8DAB0043963E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ThinkGearTouchAppDelegate.h */;
+		name = "ThinkGearTouchAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 455;
+		vrLoc = 0;
+	};
+	2656E74112DD0F0E006A3C47 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = AAE08AB010E2021E008BB459 /* Entitlements.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/Tin/Documents/Xcode Projects/NeuroSky/ThinkGearTouchSample/Entitlements.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	2656E74212DD0F0E006A3C47 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 745;
+		vrLoc = 143;
+	};
+	2656E74412DD11C9006A3C47 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 745;
+		vrLoc = 143;
+	};
+	266EE44F1240451400FDA916 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ThinkGearTouchAppDelegate.m */;
+		name = "ThinkGearTouchAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1344;
+		vrLoc = 35;
+	};
+	266EF40D123A13C9006BD2AA /* ThinkGearTouch */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ThinkGearTouch;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	266EF426123A13D5006BD2AA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	266EF427123A13D5006BD2AA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {773, 611}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{143, 745}";
+		};
+	};
+	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {796, 4043}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{2240, 1444}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = "Ad-hoc Deploy";
+		activeExecutable = 266EF40D123A13C9006BD2AA /* ThinkGearTouch */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* ThinkGearTouch */;
+		codeSenseManager = 266EF427123A13D5006BD2AA /* Code sense */;
+		executables = (
+			266EF40D123A13C9006BD2AA /* ThinkGearTouch */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					483,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					595,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					609,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					555,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 316474001;
+			PBXWorkspaceStateSaveDate = 316474001;
+		};
+		perUserProjectItems = {
+			2605FCE5123C8DAB0043963E /* PBXTextBookmark */ = 2605FCE5123C8DAB0043963E /* PBXTextBookmark */;
+			2605FCE6123C8DAB0043963E /* PBXTextBookmark */ = 2605FCE6123C8DAB0043963E /* PBXTextBookmark */;
+			2605FCE8123C8DAB0043963E /* PBXTextBookmark */ = 2605FCE8123C8DAB0043963E /* PBXTextBookmark */;
+			2656E74112DD0F0E006A3C47 /* PlistBookmark */ = 2656E74112DD0F0E006A3C47 /* PlistBookmark */;
+			2656E74212DD0F0E006A3C47 /* PBXTextBookmark */ = 2656E74212DD0F0E006A3C47 /* PBXTextBookmark */;
+			2656E74412DD11C9006A3C47 /* PBXTextBookmark */ = 2656E74412DD11C9006A3C47 /* PBXTextBookmark */;
+			266EE44F1240451400FDA916 /* PBXTextBookmark */ = 266EE44F1240451400FDA916 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 266EF426123A13D5006BD2AA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	5874B6A410C876C200857C66 /* SynthesizeSingleton.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {773, 754}}";
+			sepNavSelRange = "{239, 0}";
+			sepNavVisRange = "{0, 1008}";
+		};
+	};
+	5874B7D410CD8B7100857C66 /* TGAccessoryManagerLib */ = {
+		activeExec = 0;
+	};
+}

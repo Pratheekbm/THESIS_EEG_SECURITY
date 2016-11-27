@@ -1,0 +1,131 @@
+\documentclass[11pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\usepackage{enumerate}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\title{Thesis Status Report}
+\author{us}
+\date{\today}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+%\section{}
+%\subsection{}
+In this report we describe the initial experiments using the Mindwave Mobile sensor. 
+\section{The sensor}
+The sensor has been connected successfully to iPhone and data is collected from the iPhone through the USB interface on Mac and running iOS application on the iPhone through Xcode in Mac. 
+\section{Signal Processing}
+The data stream is read at 512Hz and stored in a file. The stored data is then lowpass filtered to eliminate unnecessary frequency bands. The DC term is eliminated at the time.
+
+The remaining data (still 512 samples/sec) bandpass filtered using an FFT to produce five measurements of spectral energy density each second. Those 5 measurements consist of,
+\begin{table}[h]
+\centering
+\caption{Frequency Bands}
+\label{Bands}
+\begin{tabular}{l l}
+\hline
+Name &Frequency Band\\\hline
+Delta&0.1Hz - 3Hz\\
+Theta&4Hz - 7Hz\\
+Alpha&8Hz - 12Hz\\
+Low Beta&13Hz - 17Hz\\
+High Beta&18Hz - 30Hz\\
+\end{tabular}
+\end{table}\\
+Traditionally, these bands have been associated with:
+\begin{description}
+\item[Delta] Deep sleep, non-REM sleep, unconsciousness
+\item [Theta] Intuitive thinking, creative thinking, recall, fantasy, dreaming
+\item [Alpha] State of relaxation while not drowsy, being tranquil, consciousness
+\item [Low Beta] State of being Relaxed yet focussed and aware of self and surrounding
+\item [High Beta] Performing integrative thinking, agitation, alertness
+\end{description}
+
+\section{Initial Experiments}
+We used eye-blink as a behavior to be recognized because we knew from literature that eye-blink is relatively easy to detect, and we could therefore use it to verify that our initial algorithms were correct. More to the point, if our algorithms do not work with eye-blink, they won't work with anything.
+
+\subsection{Collect Eye-blink Training Set}
+Twenty examples of eye-blinks were collected from the same subject. The blinks were timed to occur in a  separate one-second interval during which the raw data was collected. The five features were computed for each examples and are listed in Table \ref{Eye-blink}. In future these can be used to do Supervised Learning, but for now, we used them to do subjective comparisons. 
+\begin{table}[]
+\centering
+\caption{Feature Vectors for Eye-blink training set (in $10^6$)}
+\label{Eye-blink}
+\begin{tabular}{llllll}
+\hline
+    Delta	 &Theta &Alpha &Low Beta &High Beta\\ \hline
+    4.1787    &5.3065    &0.2893   &0.1337     &0.0406\\
+    2.0695    &2.0714    &0.8497    &0.0432    &0.0669\\
+    3.4993    &4.7912    &0.1908   &0.1280     &0.0272\\
+    4.8221    &5.5335    &0.1639    &0.0578    &0.0410\\
+    5.5597    &5.7330    &0.2350    &0.0639    &0.0489\\
+    6.3016    &5.4006    &0.2341    &0.1259    &0.0727\\
+    7.5675    &8.0493    &0.3519    &0.2142    &0.0403\\
+    6.1633    &4.3007    &0.3308    &0.1373    &0.0424\\
+    6.4759    &4.3180    &0.6251    &0.0439    &0.0758\\
+    4.0111    &5.8395    &0.9807    &0.2460    &0.2307\\
+    7.5320    &4.3235    &0.6468    &0.0886    &0.0280\\
+    6.6413    &6.1256    &0.1635    &0.0544    &0.0466\\
+    6.8445    &3.9648    &0.4620    &0.0253    &0.0516\\
+    2.1044    &2.0420    &0.6540    &0.1042    &0.0598\\
+    5.7491    &3.8107    &0.3242    &0.1127    &0.0825\\
+    4.6278    &4.7121    &0.2218    &0.0574    &0.0378\\
+    5.1399    &4.3494    &0.1845    &0.0687    &0.0589\\
+    4.1004    &3.8598    &0.4800    &0.1385    &0.1665\\
+    4.8361    &4.2765    &0.1467    &0.0475    &0.0350\\
+    3.6337    &3.9248    &0.3444    &0.1083    &0.0433
+\end{tabular}
+\end{table}
+\subsection{Collect Eye-blink Testing Set}
+Twenty seconds of raw EEG data was collected which included 4 blinks at the approximate interval of 4 sec each. This was then passed through above mentioned Signal Processing pipeline to obtain 20 feature vectors of length 5 (each corresponding to 1 sec of the raw data).
+\begin{table}[]
+\centering
+\caption{Feature Vectors for Testing set and their magnitudes(in $10^7$) and k-means clustering output after normalization}
+\label{Testing-set}
+\begin{tabular}{ccccccc}
+\hline
+    Delta	 &Theta &Alpha &Low Beta &High Beta &Magnitude &K-Means class\\ \hline
+    0.0091    &0.0038    &0.0014    &0.0023    &0.0022   &0.0105   &2\\
+    0.0013    &0.0033    &0.0026    &0.0029    &0.0046   &0.0070   &1\\
+    0.6446    &0.4439    &0.0467    &0.0085    &0.0050   &0.7841   &2\\
+    0.0391    &0.0102    &0.0045    &0.0028    &0.0049   &0.0411   &2\\
+    0.0009    &0.0013    &0.0021    &0.0022    &0.0021   &0.0040   &1\\
+    0.0003    &0.0019    &0.0030    &0.0006    &0.0030   &0.0047   &1\\
+    0.0011    &0.0013    &0.0041    &0.0020    &0.0053   &0.0072   &1\\
+    0.1464    &0.1076    &0.0363    &0.0048    &0.0074   &0.1855   &2\\
+    0.4897    &0.1482    &0.0213    &0.0025    &0.0044   &0.5121   &2\\
+    0.0004    &0.0031    &0.0054    &0.0055    &0.0056   &0.0100   &1\\
+    0.0000    &0.0058    &0.0071    &0.0027    &0.0031   &0.0101   &1\\
+    0.0005    &0.0017    &0.0028    &0.0016    &0.0038   &0.0053   &1\\
+    0.0003    &0.0057    &0.0035    &0.0039    &0.0042   &0.0088   &1\\
+    1.2896    &0.2805    &0.0274    &0.0040    &0.0039   &1.3200   &2\\
+    0.0009    &0.0023    &0.0023    &0.0009    &0.0031   &0.0046   &1\\
+    0.0005    &0.0018    &0.0044    &0.0024    &0.0044   &0.0070   &1\\
+    0.0009    &0.0024    &0.0017    &0.0017    &0.0045   &0.0058   &1\\
+    0.2465    &0.1690    &0.0277    &0.0018    &0.0052   &0.3002   &2\\
+    0.9377    &0.0831    &0.0087    &0.0014    &0.0051   &0.9414   &2
+\end{tabular}
+\end{table}
+ 
+\section{Results}
+\begin{enumerate}
+\item Magnitude of each of the feature vectors computed in the testing set was calculated. It was found that the magnitude of the feature vectors corresponding to the eye-blinks were relatively larger than the magnitude of the feature vectors which correspond to no eye-blinks (of an order of 100 more). Hence, eye-blinks could easily detected from just using the magnitude of the feature vectors. The feature vectors for testing set and their magnitude is shown in Table \ref{Testing-set}.
+
+\item We wanted to see if the feature vectors for the testing set contain any additional information for detecting eye-blinks other than the magnitude. So, we calculated the normalized feature vectors by dividing them by their magnitudes. We found that the normalized feature vectors corresponding to eye-blinks were distinct from the rest. Particularly, they had high signatures of delta and low signatures of alpha, low beta, high beta compared to the normalized feature vectors corresponding to no eye-blink.
+
+\item We applied k-means clustering algorithm on the normalized feature vectors for testing set with 2 class classification and the classification output was almost similar to what we got by just calculating the magnitudes. The k-means clustering output is also shown in Table \ref{Testing-set}
+
+\item Also, we observed that some of the eye-blinks were detected for 2 consecutive seconds, even though the eye-blink happened in a fraction of a second. This could be because of the eye-blink happening in the middle of transition from one second to another. Currently, we do not have overlap in the input raw data when we compute the feature vectors, which we could consider doing in the later stages.
+\end{enumerate}
+
+\section{Next Steps}
+\begin{enumerate}
+\item We are planning to use some of the supervised learning algorithms on the eye blink test set and see if we can get similar results.
+\item Also, we are planning to extend the test set-up for collection data sets for more complicated behavior compared to eye-blink, like performing calculations, performing eye ball movements, meditating etc.
+\end{enumerate}
+\end{document}  

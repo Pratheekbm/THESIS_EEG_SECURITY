@@ -1,0 +1,29 @@
+#
+# recent changes to the NeuroSky SDK for iOS
+#
+# this SDK version is intended for applications
+# making connections to NeuroSky devices NOT using BLE (Bluetooth Low Energy)
+#
+#
+
+2015-11-27: version 25
+    Fix no EEG data issue in sample project
+    Fix crash issue with XCode 7 & iOS 9 in sample project
+
+2015-10-13: version 24
+    Update document of "ios_development_guide.pdf" for iOS 9 support
+    Improve the description with "startStream" and "stopStream"
+
+2015-05-18: version 23
+    fix no poorSignal output issue
+
+2015-03-27: version 22
+    fix 64-bit architecture issue
+
+2014-12-11: version 20
+    Add support for Xcode simulator execution.
+    Add description for real device requirement in development guide.
+
+2014-12-09: version 20
+    rebuild SDK to support 64-bit architecture
+    fix bugs for poorSignal, raw output
