@@ -1,0 +1,149 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {1.1}{\ignorespaces Security Types\relax }}{2}{table.caption.7}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.1}{\ignorespaces EEG Frequency Bands\relax }}{12}{table.caption.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.2}{\ignorespaces MindWave Mobile Specifications\relax }}{15}{table.caption.13}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.1}{\ignorespaces Mental Tasks\relax }}{27}{table.caption.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.2}{\ignorespaces Frequency Bands used for Feature extraction\relax }}{28}{table.caption.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.3}{\ignorespaces Neural Network Features\relax }}{37}{table.caption.26}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.1}{\ignorespaces Confusion Matrix\relax }}{44}{table.caption.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.2}{\ignorespaces Intra-subject Classification using Mahalanobis Distance, Total Accuracy\relax }}{52}{table.caption.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.3}{\ignorespaces Intra-subject Classification using Mahalanobis Distance, TPR for Calculation, Breathing and Singing Task\relax }}{52}{table.caption.38}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {Calculation}}}{52}{subtable.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Breathing}}}{52}{subtable.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {Singing}}}{52}{subtable.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.4}{\ignorespaces Intra-subject Classification using Mahalanobis Distance, FPR for Calculation, Breathing and Singing Task\relax }}{56}{table.caption.39}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {Calculation}}}{56}{subtable.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Breathing}}}{56}{subtable.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {Singing}}}{56}{subtable.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.5}{\ignorespaces Intra-subject Classification using Neural Networks, Total Accuracy\relax }}{56}{table.caption.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.6}{\ignorespaces Intra-subject Classification using Neural Networks, TPR for Calculation, Breathing and Singing Task\relax }}{60}{table.caption.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {Calculation}}}{60}{subtable.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Breathing}}}{60}{subtable.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {Singing}}}{60}{subtable.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.7}{\ignorespaces Intra-subject Classification using Neural Networks, FPR for Calculation, Breathing and Singing Task\relax }}{60}{table.caption.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {Calculation}}}{60}{subtable.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Breathing}}}{60}{subtable.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {Singing}}}{60}{subtable.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.8}{\ignorespaces Intra-subject Classification using Support Vector Machines, Total Accuracy\relax }}{61}{table.caption.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.9}{\ignorespaces Intra-subject Classification using Support Vector Machines, TPR for Calculation, Breathing and Singing Task\relax }}{61}{table.caption.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {Calculation}}}{61}{subtable.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Breathing}}}{61}{subtable.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {Singing}}}{61}{subtable.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.10}{\ignorespaces Intra-subject Classification using Support Vector Machines, FPR for Calculation, Breathing and Singing Task\relax }}{65}{table.caption.51}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {Calculation}}}{65}{subtable.10.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Breathing}}}{65}{subtable.10.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {Singing}}}{65}{subtable.10.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.11}{\ignorespaces Inter-subject Classification for 4 subjects using Mahalanobis Distance - Total Accuracy\relax }}{69}{table.caption.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.12}{\ignorespaces Inter-subject Classification for 4 subjects using Mahalanobis Distance - TPR for Subject 1-4\relax }}{69}{table.caption.56}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {Subject 1}}}{69}{subtable.12.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Subject 2}}}{69}{subtable.12.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {Subject 3}}}{69}{subtable.12.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(d)}{\ignorespaces {Subject 4}}}{69}{subtable.12.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.13}{\ignorespaces Inter-subject Classification for 4 subjects using Mahalanobis Distance - FPR for Subject 1-4\relax }}{69}{table.caption.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {Subject 1}}}{69}{subtable.13.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Subject 2}}}{69}{subtable.13.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {Subject 3}}}{69}{subtable.13.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(d)}{\ignorespaces {Subject 4}}}{69}{subtable.13.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.14}{\ignorespaces Inter-subject Classification for 4 subjects using Neural Networks - Total Accuracy\relax }}{70}{table.caption.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.15}{\ignorespaces Inter-subject Classification for 4 subjects using Neural Networks - TPR for Subject 1-4\relax }}{74}{table.caption.62}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {Subject 1}}}{74}{subtable.15.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Subject 2}}}{74}{subtable.15.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {Subject 3}}}{74}{subtable.15.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(d)}{\ignorespaces {Subject 4}}}{74}{subtable.15.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.16}{\ignorespaces Inter-subject Classification for 4 subjects using Neural Networks - FPR for Subject 1-4\relax }}{74}{table.caption.63}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {Subject 1}}}{74}{subtable.16.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Subject 2}}}{74}{subtable.16.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {Subject 3}}}{74}{subtable.16.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(d)}{\ignorespaces {Subject 4}}}{74}{subtable.16.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.17}{\ignorespaces Inter-subject Classification for 4 subjects using Support Vector Machines - Total Accuracy\relax }}{78}{table.caption.64}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.18}{\ignorespaces Inter-subject Classification for 4 subjects using Support Vector Machines - TPR for Subject 1\relax }}{78}{table.caption.68}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {Subject 1}}}{78}{subtable.18.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Subject 2}}}{78}{subtable.18.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {Subject 3}}}{78}{subtable.18.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(d)}{\ignorespaces {Subject 4}}}{78}{subtable.18.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.19}{\ignorespaces Inter-subject Classification for 4 subjects using Support Vector Machines - FPR for Subject 1\relax }}{78}{table.caption.69}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {Subject 1}}}{78}{subtable.19.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Subject 2}}}{78}{subtable.19.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {Subject 3}}}{78}{subtable.19.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subtable}{\numberline {(d)}{\ignorespaces {Subject 4}}}{78}{subtable.19.4}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }

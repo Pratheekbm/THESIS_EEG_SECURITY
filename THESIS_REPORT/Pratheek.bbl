@@ -1,0 +1,516 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{nyt/global/}
+  \entry{system1020}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{1}
+    \field{sortinithash}{1}
+    \field{title}{10-20 System(EEG)}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/10-20_system_(EEG)
+    \endverb
+  \endentry
+
+  \entry{aneuronimage}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{A single Artificial Neuron}
+    \verb{url}
+    \verb https://commons.wikimedia.org/wiki/File:ArtificialNeuronModel_english
+    \verb .png
+    \endverb
+  \endentry
+
+  \entry{Boser:1992:TAO:130385.130401}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=BBE}{%
+         family={Boser},
+         familyi={B\bibinitperiod},
+         given={Bernhard\bibnamedelima E.},
+         giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=GIM}{%
+         family={Guyon},
+         familyi={G\bibinitperiod},
+         given={Isabelle\bibnamedelima M.},
+         giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=VVN}{%
+         family={Vapnik},
+         familyi={V\bibinitperiod},
+         given={Vladimir\bibnamedelima N.},
+         giveni={V\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{BBE+1}
+    \strng{fullhash}{BBEGIMVVN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{booktitle}{Proceedings of the Fifth Annual Workshop on Computational
+  Learning Theory}
+    \verb{doi}
+    \verb 10.1145/130385.130401
+    \endverb
+    \field{isbn}{0-89791-497-X}
+    \field{pages}{144\bibrangedash 152}
+    \field{series}{COLT '92}
+    \field{title}{A Training Algorithm for Optimal Margin Classifiers}
+    \verb{url}
+    \verb http://doi.acm.org/10.1145/130385.130401
+    \endverb
+    \list{location}{1}{%
+      {Pittsburgh, Pennsylvania, USA}%
+    }
+    \field{year}{1992}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{YanZhang}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BYZYCSL}{%
+         family={Bressler},
+         familyi={B\bibinitperiod},
+         given={Yan Zhang; Yonghong Chen; Steven\bibnamedelima L.},
+         giveni={Y\bibinitperiod\bibinitdelim Z\bibinitperiod Y\bibinitperiod
+  C\bibinitperiod S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Ding},
+         familyi={D\bibinitperiod},
+         given={Mingzhou},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BYZYCSLDM1}
+    \strng{fullhash}{BYZYCSLDM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{{Response preparation and inhibition: The role of the
+  cortical sensorimotor beta rhythm}}
+    \field{journaltitle}{Neuroscience}
+    \field{year}{2008}
+  \endentry
+
+  \entry{duda2001pattern}{book}{}
+    \name{author}{3}{}{%
+      {{hash=DR}{%
+         family={Duda},
+         familyi={D\bibinitperiod},
+         given={R.O.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Hart},
+         familyi={H\bibinitperiod},
+         given={P.E.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Stork},
+         familyi={S\bibinitperiod},
+         given={D.G.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley}%
+    }
+    \strng{namehash}{DR+1}
+    \strng{fullhash}{DRHPSD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{isbn}{9780471056690}
+    \field{series}{Pattern Classification and Scene Analysis: Pattern
+  Classification}
+    \field{title}{Pattern classification}
+  \endentry
+
+  \entry{EEGmesh}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{EEG Geodesic Sensor Net}
+    \verb{url}
+    \verb https://www.egi.com/research-division/geodesic-eeg-system-components/
+    \verb geodesic-sensor-nets
+    \endverb
+  \endentry
+
+  \entry{Emotive}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{Emotive mobile EEG sensor}
+    \verb{url}
+    \verb http://emotiv.com/epoc/
+    \endverb
+  \endentry
+
+  \entry{nnimage}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={Glosser.ca},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{G1}
+    \strng{fullhash}{G1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{A Typical Neural Network}
+    \verb{url}
+    \verb https://commons.wikimedia.org/wiki/File:Colored_neural_network.svg
+    \endverb
+  \endentry
+
+  \entry{simonHaykin}{book}{}
+    \name{author}{1}{}{%
+      {{hash=HS}{%
+         family={Haykin},
+         familyi={H\bibinitperiod},
+         given={Simon},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Pearson Education}%
+    }
+    \strng{namehash}{HS1}
+    \strng{fullhash}{HS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Neural Networks and Learning Machines}
+    \field{year}{2009}
+  \endentry
+
+  \entry{HZart}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HN}{%
+         family={Henze},
+         familyi={H\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=ZB}{%
+         family={Zirkler},
+         familyi={Z\bibinitperiod},
+         given={B},
+         giveni={B},
+      }}%
+    }
+    \strng{namehash}{HNZB1}
+    \strng{fullhash}{HNZB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{A Class of Invariant Consistent Tests for Multivariate
+  Normality}
+    \field{journaltitle}{Commun. Statist.-Theor. Meth.,}
+    \field{year}{1990}
+  \endentry
+
+  \entry{H.H.Jasper}{article}{}
+    \name{author}{1}{}{%
+      {{hash=H}{%
+         family={H.H.Jasper.},
+         familyi={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Electroencephalography}%
+      {Clinical Neurophysiology}%
+    }
+    \strng{namehash}{H1}
+    \strng{fullhash}{H1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{pages}{371\bibrangedash 375}
+    \field{title}{{The ten-twenty electrode system of the International
+  Federation.}}
+    \field{journaltitle}{Physical Review}
+    \field{year}{1958}
+  \endentry
+
+  \entry{Kropotov}{article}{}
+    \name{author}{1}{}{%
+      {{hash=K}{%
+         family={Kropotov.},
+         familyi={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Inc}%
+    }
+    \strng{namehash}{K1}
+    \strng{fullhash}{K1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{title}{{Quantitative EEG, Event-Related Potentials And
+  Neurotherapy}}
+    \field{year}{2009}
+  \endentry
+
+  \entry{McCulloch1943}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MWS}{%
+         family={McCulloch},
+         familyi={M\bibinitperiod},
+         given={Warren\bibnamedelima S.},
+         giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=PW}{%
+         family={Pitts},
+         familyi={P\bibinitperiod},
+         given={Walter},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MWSPW1}
+    \strng{fullhash}{MWSPW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    Because of the ``all-or-none'' character of nervous activity, neural events
+  and the relations among them can be treated by means of propositional logic.
+  It is found that the behavior of every net can be described in these terms,
+  with the addition of more complicated logical means for nets containing
+  circles; and that for any logical expression satisfying certain conditions,
+  one can find a net behaving in the fashion it describes. It is shown that
+  many particular choices among possible neurophysiological assumptions are
+  equivalent, in the sense that for every net behaving under one assumption,
+  there exists another net which behaves under the other and gives the same
+  results, although perhaps not in the same time. Various applications of the
+  calculus are discussed.%
+    }
+    \verb{doi}
+    \verb 10.1007/BF02478259
+    \endverb
+    \field{issn}{1522-9602}
+    \field{number}{4}
+    \field{pages}{115\bibrangedash 133}
+    \field{title}{A logical calculus of the ideas immanent in nervous activity}
+    \verb{url}
+    \verb http://dx.doi.org/10.1007/BF02478259
+    \endverb
+    \field{volume}{5}
+    \field{journaltitle}{The bulletin of mathematical biophysics}
+    \field{year}{1943}
+  \endentry
+
+  \entry{MWMobile}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Mindwave EEG sensor}
+    \verb{url}
+    \verb http://store.neurosky.com/pages/mindwave
+    \endverb
+  \endentry
+
+  \entry{multipercep}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Multi Layer Perceptron}
+    \verb{url}
+    \verb https://www.npmjs.com/package/node-neural-network
+    \endverb
+  \endentry
+
+  \entry{HZ}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Multivariate normality Test}
+    \verb{url}
+    \verb http://www.mathworks.com/matlabcentral/fileexchange/17931-hzmvntest
+    \endverb
+  \endentry
+
+  \entry{HZtext}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Multivariate normality Test}
+    \verb{url}
+    \verb https://www.researchgate.net/publication/255982280_HZMVNTEST_Henze-Zi
+    \verb rkler%27s_Multivariate_Normality_Test
+    \endverb
+  \endentry
+
+  \entry{muse}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Muse EEG sensor}
+    \verb{url}
+    \verb http://www.choosemuse.com/
+    \endverb
+  \endentry
+
+  \entry{Rosenblatt1958thePerceptron}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RF}{%
+         family={Rosenblatt},
+         familyi={R\bibinitperiod},
+         given={F},
+         giveni={F},
+      }}%
+    }
+    \strng{namehash}{RF1}
+    \strng{fullhash}{RF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{pages}{65\bibrangedash 408}
+    \field{title}{The Perceptron: A Probabilistic Model for Information Storage
+  and Organization in The Brain}
+    \field{volume}{65(6)}
+    \field{journaltitle}{Psychological Review}
+    \field{year}{1958}
+  \endentry
+
+  \entry{snyder2010machine}{book}{}
+    \name{author}{2}{}{%
+      {{hash=SW}{%
+         family={Snyder},
+         familyi={S\bibinitperiod},
+         given={W.E.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=QH}{%
+         family={Qi},
+         familyi={Q\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{SWQH1}
+    \strng{fullhash}{SWQH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{isbn}{9781139489928}
+    \field{title}{Machine Vision}
+    \field{year}{2010}
+  \endentry
+
+  \entry{JohannesSobotta}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SJ}{%
+         family={Sobotta},
+         familyi={S\bibinitperiod},
+         given={Johannes},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nabu Press}%
+    }
+    \strng{namehash}{SJ1}
+    \strng{fullhash}{SJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Atlas and Text-Book of Human Anatomy: Vascular System,
+  Lymphatic System, Nervous System and Sense Organs}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Therrien:1989:DEC:61950}{book}{}
+    \name{author}{1}{}{%
+      {{hash=TCW}{%
+         family={Therrien},
+         familyi={T\bibinitperiod},
+         given={Charles\bibnamedelima W.},
+         giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {John Wiley \& Sons, Inc.}%
+    }
+    \strng{namehash}{TCW1}
+    \strng{fullhash}{TCW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{isbn}{0-471-83102-6}
+    \field{title}{Decision Estimation and Classification: An Introduction to
+  Pattern Recognition and Related Topics}
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \field{year}{1989}
+  \endentry
+
+  \entry{werbos1974beyond}{book}{}
+    \name{author}{1}{}{%
+      {{hash=WP}{%
+         family={Werbos},
+         familyi={W\bibinitperiod},
+         given={P.J.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Harvard Univ.}%
+    }
+    \strng{namehash}{WP1}
+    \strng{fullhash}{WP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{Beyond Regression: New Tools for Prediction and Analysis in
+  the Behavioral Sciences}
+    \verb{url}
+    \verb https://books.google.com/books?id=z81XmgEACAAJ
+    \endverb
+    \field{year}{1974}
+  \endentry
+\endsortlist
+\endinput

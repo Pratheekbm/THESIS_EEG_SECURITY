@@ -1,0 +1,52 @@
+%% ------------------------------ Abstract ---------------------------------- %%
+\begin{abstract}
+	Security is an important part of life. Security systems are used in many scenarios to safe-keep people, materials, information etc. Security systems like ID card, passcode are widely used in day to day life. Even though these systems are very effective, they are prone to certain risks, like loosing the ID card, or someone stealing the passcode etc. For this reason, many security systems deploy combination of these securities including bio-metric identification. This thesis investigates the feasibility of using Brain Waves (EEG signals) as an input to security system. The security system using EEG is composed of four stages, reading EEG data from the sensor, pre-processing the EEG data by filtering, extracting suitable features for classification and authenticating the users using classifiers. The performance of various classifiers for different brain tasks are studied and compared.
+
+	MindWave mobile EEG sensor is used to collect the raw EEG data from tests subjects. This requires interfacing the device with the computer through bluetooth. The raw EEG data is then pre-processed to remove DC content and other any unnecessary frequencies. Pre-processed data is then divided into subgroups of one second each and deployed to feature extraction.
+
+
+	EEG signals are characterized by frequencies and hence they are divided into different EEG frequency bands. Also, different brain activities give raise to different energy levels in the EEG frequency bands. For this reason, spectral energy of EEG frequency bands are used as features. This is done by computing the DFT of the pre-precessed EEG signals and calculating the energy of different EEG bands and organizing them as a feature vector. Also, the feature vectors are normalized to negate the effect of EEG sensor sensitivity to different subjects.
+
+	The feature vectors are classified using the Mahalanobis Distance classifier, the Neural Networks classifier and the Support Vector Machines classifier. Firstly, intra-subject classification is analyzed. Here, we try to classify different tasks performed by the same subject. Then, inter-subject classification is analyzed. Here, we try to identify a subject among group of subjects performing same task. Performance of all the classifiers is evaluated for both intra-subject and inter-subject classification using classification accuracies, true positive rate (TPR) and false positive rate (FPR).
+
+	It was found that, intra-subject classification was harder compared to inter-subject classification. It was also found that the Neural Networks and Support vector machines performed superior to the Mahalanobis Distance classifier. At best, classification accuracy of 76\%, TPR of 93\% was achieved for inter-subject classification with four test subjects. Also, it was found that classifier performance was on average three times compared to the baseline performance. On the other hand, the performance of the system reduced with increase in number of test subject.
+
+
+\end{abstract}
+
+
+%% ---------------------------- Copyright page ------------------------------ %%
+%% Comment the next line if you don't want the copyright page included.
+\makecopyrightpage
+
+%% -------------------------------- Title page ------------------------------ %%
+\maketitlepage
+
+%% -------------------------------- Dedication ------------------------------ %%
+\begin{dedication}
+%\centering
+ I would like to dedicate this work to my parents, Malikarjuna and Jaya; to my sister Divya; and all of my friends who have helped, encouraged and motivated me along the way.
+\end{dedication}
+
+%% -------------------------------- Biography ------------------------------- %%
+\begin{biography}
+The author was born in a small village, Bramhasamudra, India. He graduated from R.V. college of engineering with a Bachelor of Engineering Degree in Electronics and Computer Engineering, in June 2011. After graduating, he started working for a signal processing company, Ittiam Systems Pvt Ltd., in Bengaluru as Software Engineer in Video Communications Systems team for three years.
+
+He continued his education at North Carolina State University, pursuing a Master of Science degree in Electrical Engineering from Fall 2014. He came in touch with Dr. Wesley Snyder when he took Computer Vision (Spring 2015) course instructed by him. He worked under Dr. Wesley Snyder as summer researcher and helped write a GUI based cross platform image processing, editing \& algorithm evaluation tool. He also helped Computer Vision students of spring 2016 as the Teaching Assistant under Dr. Wesley Snyder. He currently works on EEG Based User Verification System under Dr. Wesley Snyder as part of graduate requirement for Masters with thesis. His areas of interests are Machine Learning, Computer Vision \& Signal Processing and he continues to work on gaining knowledge and better understanding of techniques used in these fields.
+\end{biography}
+
+%% ----------------------------- Acknowledgements --------------------------- %%
+\begin{acknowledgements}
+I would like to thank my committee for all their help and guidance. First, I thank Dr. Wesley Snyder for all the time and effort he put to advise, guide and teach me. I would also like to thank him for motivating me and pushing me to excel. I would like to thanks Dr. Cliff Wang for motivating me to research on EEG based security system and all the help he provided to kick start the research. I would also like to thank Dr. Edgar Lobaton for making me a better student and researcher.
+
+Secondly, I would like to thank all the people who were generous enough to let me note their EEG readings required for the research.
+
+Lastly, I would like to thank all my friends who helped me in the time of need and motivated me to work hard.
+\end{acknowledgements}
+
+
+\thesistableofcontents
+
+\thesislistoftables
+
+\thesislistoffigures

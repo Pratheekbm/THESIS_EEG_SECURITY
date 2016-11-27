@@ -1,0 +1,42 @@
+\chapter{INTRODUCTION}
+\label{chap-one}
+\section{What is Security?}
+	Security is the procedure or measure taken to ensure safety, for example, when verifying an individual who enters a secured facility or tries to log-in to a secured computer system. It is natural to consider one or all of the security types as shown in Table \ref{Table:Security_types} for identification of an individual.
+    
+    	\begin{table}[h!]
+		\centering
+		\caption{Security Types}
+		\label{Table:Security_types}
+		\begin{tabular}{l l}
+			\hline
+			Security Type &Example\\\hline
+			Have something&ID card\\
+			Know something&User-name/Password\\
+			Be someone&Bio-metric identification\\
+		\end{tabular}
+	\end{table}
+    Some of the security systems might use one or more combinations of security types.
+    
+\subsection{ID Card Verification}
+    An ID card or Identity Document is the document provided by the security system to identify a person. The document can be just a plain document or can be embedded with smart chip with information encoded in it. Machines can read the card and verify the user information. Even though this method is convenient, the card can be easily stolen resulting in the card being the weak link.
+
+\subsection{A User-name/Password Verification}
+	An individual is provided with a User-name and a password. The user-name/password combination can be entered in the system to access approval to use the resources controlled by the system or the system itself. Even though the user doesn't have to carry any card for this method, he/she has to remember the user-name and password combination. Also, it is harder to steal the user-name/password combination.
+    
+\subsection{Bio-metric Authentication}
+	Bio-metric authentication involves user identification using human characteristics. Few example of such characteristics include finger print, retina, face recognition, DNA, Brain Waves etc.
+
+\section{Using Brain waves for Security Systems}
+	As we will learn in the later chapters, different thinking patterns result in different brain waves and can be distinguished using pattern recognition techniques. This can be leveraged to design a security system to identify an individual. Since same thinking patterns from different individuals result in different brain waves, cracking such security system will be hard by just knowing the thinking pattern.
+
+
+\section{Organization of Thesis}
+	Chapter \ref{chap-one} provides brief introduction on Security and Security systems. It also provides information on why EEG signals will be well suited for a robust security system.
+
+	Chapter \ref{chap-two} provides a brief description on the human brain anatomy, Electroencephalography and pattern recognition. It discusses about EEG sensors, EEG frequency bands and MindWave mobile EEG sensor. It discusses about pre-processing the EEG signals and extracting the features. It also provides some background on Mahalanobis distance, Artificial Neural networks and Support vector machines.
+
+	Chapter \ref{chap-three} gives detailed description of the methodology of EEG security system. It discusses the mathematical background and implementation of pre-processing EEG signals, extracting features from the filtered signals and classifying using Mahalanobis Distance, Neural Networks and Support Vector Machines.
+
+	Chapter \ref{chap-four} discusses about the performance measures used to evaluate the performance of the classifiers discussed in Chapter \ref{chap-three}. It briefly describes why classifying EEG signals is hard. It also provides the performances of all the classifiers for intra-subject and inter-subject classification.
+
+	Chapter \ref{chap-five} discusses few of the interesting results and the reasons behind them. It also discusses about the effect of number of classes on classifier performance.
